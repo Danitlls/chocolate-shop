@@ -1,12 +1,12 @@
-# _Insert title here_
+# _Chocolate Shop Website_
 
-### _Collection of Week 1 CSS and HTML projects at Epicodus, April 21, 2017_
+### _A website for practicing jQuery and forms!_
 
 #### By _**Daniela Trulls and Rose Sponseller**_
 
 ## Description
 
-_This site showcases... add later!_
+_This site connects jQuery to an HTML form. When a user submits the chocolate they want to purchase, their receipt will display._
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ _This site showcases... add later!_
 
 ## Known Bugs
 
-* _When "Buy Chocolate button" is clicked, it will display the default Bootstrap success background color_
+* _Not known at this time, but suggestions welcome._
 
 ## Support and contact details
 
