@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Placeholder Title</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Welcme to Chocolate Shop</h1>
+      <form id="customer" action="index.html" method="post">
+        <div class="form-group">
+          <label for="name">Your name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+
+
+        <div class="form-group">
+          <label for="phone">Phone number:</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Phone number">
+        </div>
+
+        <div class="choice">
+          <h3>Choose your chocolate:</h3>
+        </div>
+        <div class="row">
+          <div class="radio col-md-4">
+            <label>
+              <input type="radio" name="flavor" value="dark-chocolate" checked>
+              <p>Chocolate</p>
+            </label>
+          </div>
+          <div class="radio col-md-4">
+            <label>
+              <input type="radio" name="flavor" value="milk-chocolate">
+              <p>milk-chocolate</p>
+            </label>
+          </div>
+          <div class="radio col-md-4">
+            <label>
+              <input type="radio" name="flavor" value="caramel-chocolate">
+              <p>caramel-chocolate</p>
+            </label>
+          </div>
+        </div><!--Row closes-->
+        <div class="btn-group">
+          <button type="submit" name="button" class="btn btn-success btn-lg">Buy!</button>
+        </div><!--Button closes-->
+      </form>
+
+      <div id="show-receipt">
+        <h3>Thank you for your purchase, <span class="name"></span>!</h3>
+        <p>You placed an order for <strong><span class="flavor"></span></strong>.</p>
+        <p>If there are any problems, we will reach out to you via email at <strong><span class="email"></span></strong> or call you at <strong><span class="phone"></span></strong>.</p>
+        <p>Contact us if you have any questions!</p>
+      </div>
+
+      <div class="customer-list">
+        <h2>Check out our customers!</h2>
+        <ul>
+          <li>Izzy Goo</li>
+        </ul>
+      </div>
+
+  </div><!-- close the container -->
+  </body>
+</html>

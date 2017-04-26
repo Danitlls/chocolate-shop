@@ -1,0 +1,18 @@
+.choice{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.col-md-4{
+  padding: 10px 0;
+  padding-left: 20px;
+}
+div.radio:first-of-type{
+  /*padding-top: 0;*/
+  margin-top: -5px;
+  /*background-color: red;*/
+}
+
+#show-receipt {
+  display: none;
+}
