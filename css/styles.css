@@ -1,6 +1,47 @@
-.choice{
+body {
+  background-color: #cee9eb;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.80);
+  border-radius: 1%;
+}
+
+.jumbotron {
+  background-color: #829ea0;
+  color: #f3feff;
+  padding: 48px 100px;
+  font-family: 'Delius', cursive;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #65532c;
+}
+
+#centerbutton {
+  margin-left: 42%;
+}
+
+.choice {
   margin-bottom: 30px;
   text-align: center;
+}
+
+label > p {
+  font-family: fantasy;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #998048;
+  border-color: #65532c;
+}
+
+.btn:hover {
+  background-color: #65532c;
+  border-color:#998048;
 }
 
 .col-md-4{

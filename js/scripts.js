@@ -4,7 +4,7 @@ $(document).ready(function() {
   $("#customer").submit(function(event) {
     event.preventDefault();
     name = $("#name").val();
-    var email = $("#email").val();
+    var address = $("#address").val();
     var phone = $("#phone").val();
     var flavor = $("input:radio[name=flavor]:checked").val();
 
@@ -12,10 +12,10 @@ $(document).ready(function() {
     $(".name").text(name);
     $(".flavor").text(flavor);
     $(".phone").text(phone);
-    $(".email").text(email);
+    $(".address").text(address);
 
-    $("#show-receipt").show();
+    $("#show-receipt").slideToggle().show();
 
-    $("ul").prepend("<li>" + name +"</li>");
+    $("ul").prepend("<li><strong>Name: </strong>" + name + " <strong>Phone Number:</strong> " + phone +"</li>");
   });
 });

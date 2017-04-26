@@ -15,7 +15,7 @@ _This site showcases... add later!_
 
 ## Known Bugs
 
-* _Add later_
+* _When "Buy Chocolate button" is clicked, it will display the default Bootstrap success background color_
 
 ## Support and contact details
 
